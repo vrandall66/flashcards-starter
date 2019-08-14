@@ -2,6 +2,10 @@ const chai = require('chai');
 const expect = chai.expect;
 
 const Game = require('../src/Game');
+const Round = require('../src/Round');
+const Deck = require('../src/Deck');
+const Card = require('../src/Card');
+
 
 describe('Game', function () {
 
@@ -15,8 +19,10 @@ describe('Game', function () {
     expect(game).to.be.an.instanceof(Game);
   });
 
-  // it('should keep track of the current round', function () {
-  //   const game = new Game();
-  // });
+  it('should have a start method to start the game', function () {
+    const game = new Game();
+    game.start();
+
+  });
 
 });
