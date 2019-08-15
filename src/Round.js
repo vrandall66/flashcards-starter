@@ -20,7 +20,7 @@ class Round {
   }
 
   calculatePercentCorrect() {
-    var incorrect = this.incorrectAnswers.length;
+    const incorrect = this.incorrectAnswers.length;
     return Math.round(incorrect / this.turns * 100);
   }
 
@@ -32,7 +32,7 @@ class Round {
       return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly in ${totalTime} seconds!`;
     } else {
       totalMinutes = Math.round(totalTime / 60);
-      return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly in ${totalMinutes} minutes!`
+      return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly in ${totalMinutes} minutes!`;
     }
 
   }
