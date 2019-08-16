@@ -26,7 +26,7 @@ class Round {
 
   endRound() {
     const endTime = new Date();
-    const totalTime = Math.round(endTime - this.startTime) / 1000;
+    const totalTime = Math.round((endTime - this.startTime) / 1000);
     let totalMinutes;
     if (totalTime < 60) {
       return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly in ${totalTime} seconds!`;

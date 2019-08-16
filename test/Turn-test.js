@@ -36,7 +36,7 @@ describe('Turn', function () {
   });
 
   it('should have a method that returns "incorrect" or "correct" on true or false', function () {
-    expect(turn2.giveFeedback()).to.equal('incorrect!')
+    expect(turn2.giveFeedback()).to.equal('incorrect!');
     expect(turn1.giveFeedback()).to.equal('correct!');
   });
 });
