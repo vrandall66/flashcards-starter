@@ -6,7 +6,7 @@ Are you new to software development and learning about working with arrays? Here
 
 ## To Install
 
-Clone down the repo <a href="https://github.com/vrandall66">here</a>.
+Clone down the repo <a href="https://github.com/vrandall66/flashcards-starter">here</a>.
 
 To run the game, you will be playing in your terminal, as shown in the example GIF below. Be sure to create a new directory/folder on your computer that you would like to clone the repo into.
 
